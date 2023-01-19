@@ -1,0 +1,6 @@
+framework module HTCopyableLabel {
+  umbrella header "HTCopyableLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

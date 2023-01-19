@@ -1,0 +1,16 @@
+/* 
+  auths.ar.strings
+  StopTechnician
+
+  Created by Agus Cahyono on 03/01/19.
+  Copyright © 2019 Agus Cahyono. All rights reserved.
+*/
+
+"button.login" = "تسجيل الدخول";
+"button.register" = "تسجيل";
+"button.otherapp" = "تبحث عن ";
+"button.userapp" = "التطبيق المستخدم";
+"main.titleapp" = "ستوب, احنا جايينك!";
+
+
+"auth.phone.smsverification.title" = "إضافة رقم الجوال الخاص بك";

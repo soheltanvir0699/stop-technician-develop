@@ -1,0 +1,22 @@
+/* 
+  menu.en.strings
+  StopApp
+
+  Created by Agus Cahyono on 16/09/18.
+  Copyright © 2018 Agus Cahyono. All rights reserved.
+*/
+
+"menu.mywork.replace" = "My Work";
+"menu.notification.replace" = "Notifications";
+"menu.history.replace" = "History";
+"menu.wallet.replace" = "Your Wallet";
+"menu.setting.replace" = "Settings";
+"menu.logout.replace" = "Logout";
+
+
+"menu.wallet.mywallet" = "My Wallet";
+"menu.wallet.myhistory" = "My History";
+
+
+"menu.work.mybid" = "My Bid";
+"menu.work.mywork" = "My Work";

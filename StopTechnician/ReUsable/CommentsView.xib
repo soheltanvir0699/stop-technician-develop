@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+        <array key="CircularStd-Medium.otf">
+            <string>CircularStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="187" id="KGk-i7-Jjw" customClass="CommentsView" customModule="StopTechnician" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="434" height="187"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="434" height="186.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hHK-n9-CSB">
+                        <rect key="frame" x="0.0" y="0.0" width="434" height="186.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rz6-uK-SuU" customClass="BXImageView" customModule="StopTechnician" customModuleProvider="target">
+                                <rect key="frame" x="28" y="28" width="52" height="52"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="4KS-9C-79U"/>
+                                    <constraint firstAttribute="width" constant="52" id="pF6-bC-ebM"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="circular" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQz-pF-LVr">
+                                <rect key="frame" x="128" y="28" width="278" height="63.5"/>
+                                <string key="text">“Hi,
+My start-ups include the nation's first University-accredited motorcycle club, a Midwestern riding group, and a vehicle logistics and restoration company. I know cars and motorcycles,”</string>
+                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="10"/>
+                                <color key="textColor" red="0.1529411765" green="0.23921568630000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abdullah" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xow-R8-vgZ">
+                                <rect key="frame" x="8" y="99" width="92" height="18"/>
+                                <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
+                                <color key="textColor" red="0.1529411765" green="0.23921568630000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CIf-1g-0Mt" customClass="FloatRatingView" customModule="StopTechnician" customModuleProvider="target">
+                                <rect key="frame" x="14" y="127" width="80" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="XFf-cu-4g7"/>
+                                    <constraint firstAttribute="height" constant="13" id="ywm-R8-8wb"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="startEmpty"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="startFull"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="minRating">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maxRating">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="editable" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time of starting job" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AV5-eY-GB8">
+                                <rect key="frame" x="128" y="97.5" width="70.5" height="10.5"/>
+                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="8"/>
+                                <color key="textColor" red="0.1529411765" green="0.23921568630000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="07:30 PM | 06/01/2018" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTY-f0-mHg">
+                                <rect key="frame" x="128" y="113" width="121.5" height="15.5"/>
+                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="12"/>
+                                <color key="textColor" red="1" green="0.44705882349999998" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tQ6-Xo-Li2">
+                                <rect key="frame" x="28" y="185.5" width="406" height="1"/>
+                                <color key="backgroundColor" red="0.87843137250000003" green="0.91764705879999997" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="vZh-n3-ZQE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rz6-uK-SuU" firstAttribute="leading" secondItem="hHK-n9-CSB" secondAttribute="leading" constant="28" id="99w-k5-FBJ"/>
+                            <constraint firstItem="rz6-uK-SuU" firstAttribute="top" secondItem="hHK-n9-CSB" secondAttribute="top" constant="28" id="EC7-3w-qZs"/>
+                            <constraint firstItem="uTY-f0-mHg" firstAttribute="leading" secondItem="AV5-eY-GB8" secondAttribute="leading" id="I7M-C5-XRM"/>
+                            <constraint firstAttribute="trailing" secondItem="cQz-pF-LVr" secondAttribute="trailing" constant="28" id="R3c-76-t61"/>
+                            <constraint firstItem="xow-R8-vgZ" firstAttribute="leading" secondItem="rz6-uK-SuU" secondAttribute="leading" constant="-20" id="TdC-Be-iXY"/>
+                            <constraint firstAttribute="bottom" secondItem="tQ6-Xo-Li2" secondAttribute="bottom" id="V1T-5o-R1q"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="CIf-1g-0Mt" secondAttribute="bottom" constant="28" id="W0b-PE-EtK"/>
+                            <constraint firstItem="cQz-pF-LVr" firstAttribute="top" secondItem="hHK-n9-CSB" secondAttribute="top" constant="28" id="a9a-r6-VdV"/>
+                            <constraint firstItem="tQ6-Xo-Li2" firstAttribute="leading" secondItem="rz6-uK-SuU" secondAttribute="leading" id="b2U-Rj-uym"/>
+                            <constraint firstAttribute="trailing" secondItem="tQ6-Xo-Li2" secondAttribute="trailing" id="bCf-Sf-nQD"/>
+                            <constraint firstItem="cQz-pF-LVr" firstAttribute="leading" secondItem="rz6-uK-SuU" secondAttribute="trailing" constant="48" id="bm0-vC-qhy"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="uTY-f0-mHg" secondAttribute="bottom" constant="28" id="bpe-Of-6Fl"/>
+                            <constraint firstItem="xow-R8-vgZ" firstAttribute="trailing" secondItem="rz6-uK-SuU" secondAttribute="trailing" constant="20" id="cld-8K-tei"/>
+                            <constraint firstItem="CIf-1g-0Mt" firstAttribute="top" secondItem="xow-R8-vgZ" secondAttribute="bottom" constant="10" id="dKP-hY-Irb"/>
+                            <constraint firstItem="xow-R8-vgZ" firstAttribute="top" secondItem="rz6-uK-SuU" secondAttribute="bottom" constant="19" id="mPi-wT-4Gr"/>
+                            <constraint firstItem="uTY-f0-mHg" firstAttribute="top" secondItem="AV5-eY-GB8" secondAttribute="bottom" constant="5" id="pKZ-yJ-WXm"/>
+                            <constraint firstItem="CIf-1g-0Mt" firstAttribute="centerX" secondItem="xow-R8-vgZ" secondAttribute="centerX" id="rAO-QE-pFu"/>
+                            <constraint firstItem="AV5-eY-GB8" firstAttribute="top" secondItem="cQz-pF-LVr" secondAttribute="bottom" constant="6" id="vZK-pa-PbI"/>
+                            <constraint firstItem="AV5-eY-GB8" firstAttribute="leading" secondItem="cQz-pF-LVr" secondAttribute="leading" id="xQo-S4-hxe"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hHK-n9-CSB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="7e9-vV-04I"/>
+                    <constraint firstAttribute="bottom" secondItem="hHK-n9-CSB" secondAttribute="bottom" id="9Bi-0W-yXn"/>
+                    <constraint firstItem="hHK-n9-CSB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="FVW-LG-Fjr"/>
+                    <constraint firstAttribute="trailing" secondItem="hHK-n9-CSB" secondAttribute="trailing" id="fYy-Xj-lrP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="avatarUser" destination="rz6-uK-SuU" id="VFK-63-RHn"/>
+                <outlet property="bidderFullname" destination="xow-R8-vgZ" id="MbT-FH-aA8"/>
+                <outlet property="bidderMessage" destination="cQz-pF-LVr" id="SIf-Y4-V5S"/>
+                <outlet property="bidderRate" destination="CIf-1g-0Mt" id="SXj-qb-8TR"/>
+                <outlet property="bidderStartTime" destination="uTY-f0-mHg" id="XYf-Qn-4T3"/>
+                <outlet property="containerView" destination="hHK-n9-CSB" id="TQ9-Fy-48A"/>
+                <outlet property="wordingTimeStart" destination="AV5-eY-GB8" id="qMS-iz-3mc"/>
+            </connections>
+            <point key="canvasLocation" x="65" y="24.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="startEmpty" width="14" height="13"/>
+        <image name="startFull" width="14" height="13"/>
+    </resources>
+</document>

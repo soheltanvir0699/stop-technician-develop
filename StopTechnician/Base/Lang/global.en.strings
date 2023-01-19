@@ -1,0 +1,89 @@
+/* 
+  global.en.strings
+  StopApp
+
+  Created by Agus Cahyono on 13/10/18.
+  Copyright © 2018 Agus Cahyono. All rights reserved.
+*/
+
+"global.string.yes" = "Yes";
+"global.string.no" = "No";
+"global.string.cancel" = "Cancel";
+"global.error.alert.title" = "Alert";
+"global.success.alert.title" = "Success";
+"global.loading.table.title" = "LOADING...";
+"global.alert.oops" = "Oops";
+"global.button.save" = "Save";
+"global.button.ok" = "OK";
+"global.button.select" = "Select";
+"global.button.confirmation" = "Confirmation";
+
+"global.alert.updateprofile" = "Your profile success updated";
+"global.alert.updatelanguage" = "Your language is success updated.";
+"global.alert.confirm.language.update.title" = "Restart Required";
+"global.alert.confirm.language.update" = "This required restarting the Application. Are you sure you want to close the app now ?";
+"global.alert.ratedorder" = "Your Order successfully rated";
+
+"global.languange.chooser.title" = "Change Language";
+"global.languange.chooser.message" = "Choose your new language below";
+
+"work.alert.complete.working.confirmation.msg" = "Are you sure want to complete your work";
+
+"global.camera.choose.title" = "Choose Image";
+"global.camera.choose" = "Camera";
+"global.gallery.choose" = "Gallery";
+
+"setting.menu.changePhoto" = "Change Photo";
+
+"global.alert.error" = "An error occurred";
+
+"global.alert.internet.failed" = "Connection failed, please check the internet setup";
+"global.alert.cancel.order" = "Are you sure want to cancel this order ?";
+
+"auth.phone.verificationcode.empty" = "Enter the verification code";
+
+"global.alert.phone.empty" = "Please input your phone number";
+"global.alert.name.empty" = "Please input your name";
+"global.alert.familyname.empty" = "Please input family name";
+"global.alert.email.empty" = "Please input your Email";
+"global.alert.email.invalid" = "Please input your valid Email address";
+"global.alert.experience.empty" = "Please input your years experience";
+"global.alert.card.empty" = "Please input your card number";
+"global.alert.expireddate.empty" = "Please input your expired date";
+"global.alert.cvv.empty" = "Please input your cvv";
+"global.alert.accountname.empty" = "Please input your account name";
+"global.alert.country.empty" = "Please input your country";
+"global.alert.specialized.empty" = "Please input your specialized";
+
+"global.alert.bidding.message" = "Please input your message";
+"global.alert.bidding.price" = "Please input your price";
+"global.alert.bidding.datestart" = "Please input date to start";
+"global.alert.bidding.hourstart" = "Please input hour to start";
+
+"global.auth.phone.success.updated" = "Your mobile phone number has been updated";
+
+// HOME
+"home.jobs.empty.title" = "Nothing Jobs Today";
+"home.jobs.empty.message" = "Keep calm, you can go to the beach to surf and rest";
+"home.jobs.total.services" = "%@ Services";
+
+"home.status.user.online" = "Online   ";
+"home.status.user.offline" = "Offline   ";
+
+"setting.bank.city.title.dialog" = "Select City";
+"setting.bank.save.success.alert" = "Your bank has been save";
+
+"logout.alert.confirm.title" = "Do you want to logout?";
+
+
+"wallet.empty.message.history" = "Please, bid and select your opportunities jobs at home page";
+"wallet.empty.title.history" = "You don’t have a history";
+
+"notification.empty.title" = "No Notification Yet";
+"notification.empty.message" = "Stay tuned! Notification about your activity will show here";
+
+"work.empty.title" = "Nothing Jobs List";
+"work.empty.message" = "Keep calm, you can go to the beach to surf and rest";
+
+"global.alert.rate.empty.review" = "Please input your review";
+"global.alert.rate.empty.review.client" = "Please input rate for your client";

@@ -1,0 +1,90 @@
+/* 
+  global.ar.strings
+  StopApp
+
+  Created by Agus Cahyono on 13/10/18.
+  Copyright © 2018 Agus Cahyono. All rights reserved.
+*/
+
+"global.string.yes" = "نعم";
+"global.string.no" = "لا";
+"global.string.cancel" = "إلغاء";
+"global.error.alert.title" = "محزر";
+"global.success.alert.title" = "نجاح";
+"global.loading.table.title" = "جار التحميل...";
+"global.alert.oops" = "Oops";
+"global.button.save" = "حفظ";
+"global.button.select" = "تحديد";
+"global.button.ok" = "نعم";
+
+
+"global.alert.updateprofile" = "تم تحديث ملفك الشخصي بنجاح";
+"global.alert.updatelanguage" = "يتم تحديث لغتك بنجاح";
+"global.alert.confirm.language.update.title" = "إعادة التشغيل المطلوبة";
+"global.alert.confirm.language.update" = "هذا يتطلب إعادة تشغيل التطبيق. هل أنت متأكد من أنك تريد إغلاق التطبيق الآن؟";
+"global.alert.ratedorder" = "تم تقييم طلبك بنجاح";
+
+"global.languange.chooser.title" = "تغيير اللغة";
+"global.languange.chooser.message" = "اختر لغتك الجديدة أدناه";
+
+"work.alert.complete.working.confirmation.msg" = "هل أنت متأكد أنك تريد إكمال عملك؟";
+
+
+"global.camera.choose.title" = "اختر صورة";
+"global.camera.choose" = "الة تصوير";
+"global.gallery.choose" = "صالة عرض";
+
+"setting.menu.changePhoto" = "تغيير الصورة";
+
+"global.alert.error" = "حدث خطأ";
+
+"global.alert.internet.failed" = "فشل في الأتصال";
+"global.alert.cancel.order" = "هل تريد بالتأكيد إلغاء هذا الطلب؟";
+
+"auth.phone.verificationcode.empty" = "أدخل رمز التحقق";
+
+"global.alert.phone.empty" = "الرجاء إدخال رقم هاتفك";
+"global.alert.name.empty" = "الرجاء إدخال اسمك";
+"global.alert.familyname.empty" = "يرجى إدخال اسم العائلة";
+"global.alert.email.empty" = "يرجى إدخال البريد الإلكتروني الخاص بك";
+"global.alert.email.invalid" = "يرجى إدخال عنوان البريد الإلكتروني الخاص بك";
+"global.alert.card.empty" = "يرجى إدخال رقم بطاقتك";
+"global.alert.expireddate.empty" = "يرجى إدخال تاريخ الانتهاء الخاص بك";
+"global.alert.cvv.empty" = "يرجى إدخال cvv الخاص بك";
+"global.alert.accountname.empty" = "يرجى إدخال اسم حسابك";
+"global.alert.country.empty" = "يرجى إدخال بلدك";
+"global.alert.experience.empty" = "الرجاء إدخال تجربة سنواتك";
+"global.alert.specialized.empty" = "الرجاء إدخال التخصص الخاص بك";
+
+"global.auth.phone.success.updated" = "تم تحديث رقم هاتفك المحمول";
+
+"global.alert.bidding.message" = "يرجى إدخال رسالتك";
+"global.alert.bidding.price" = "يرجى إدخال السعر الخاص بك";
+"global.alert.bidding.datestart" = "يرجى إدخال تاريخ البدء";
+"global.alert.bidding.hourstart" = "يرجى إدخال ساعة للبدء";
+
+// HOME
+
+"home.jobs.empty.title" = "لا يوجد شيء وظائف اليوم";
+"home.jobs.empty.message" = "حافظ على هدوئك ، يمكنك الذهاب إلى الشاطئ للتصفح والراحة" ;
+"home.jobs.total.services" = "%@ خدمات";
+
+"home.status.user.online" = "متصل"   ;
+"home.status.user.offline" = "غير متصل    ";
+
+"setting.bank.city.title.dialog" = "اختر مدينة";
+"setting.bank.save.success.alert" = "البنك الذي تتعامل معه كان إنقاذ";
+
+"logout.alert.confirm.title" = "هل تريد تسجيل الخروج؟";
+
+"wallet.empty.message.history" = "يرجى تقديم عطاءات واختيار فرص العمل الخاصة بك في الصفحة الرئيسية";
+"wallet.empty.title.history" = "ليس لديك تاريخ";
+
+"notification.empty.title" = "لا يوجد إخطار حتى الآن";
+"notification.empty.message" = "ترقبوا! سيتم عرض إشعار حول نشاطك هنا";
+
+"work.empty.title" = "لا شيء قائمة الوظائف";
+"work.empty.message" = "الحفاظ على الهدوء ، يمكنك الذهاب إلى الشاطئ لتصفح والراحة";
+
+"global.alert.rate.empty.review" = "يرجى إدخال رأيك";
+"global.alert.rate.empty.review.client" = "يرجى إدخال معدل لعميلك";

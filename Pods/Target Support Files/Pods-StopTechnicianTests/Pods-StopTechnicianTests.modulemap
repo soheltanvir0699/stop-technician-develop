@@ -1,0 +1,6 @@
+framework module Pods_StopTechnicianTests {
+  umbrella header "Pods-StopTechnicianTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

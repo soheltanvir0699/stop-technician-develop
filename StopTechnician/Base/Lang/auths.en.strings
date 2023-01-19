@@ -1,0 +1,17 @@
+/* 
+  auths.en.strings
+  StopTechnician
+ 
+  Created by Agus Cahyono on 03/01/19.
+  Copyright © 2019 Agus Cahyono. All rights reserved.
+  
+*/
+
+
+"button.login" = "SIGN IN";
+"button.register" = "REGISTER";
+"button.otherapp" = "LOOKING FOR THE ";
+"button.userapp" = "USER APP";
+"main.titleapp" = "Stop, we'll come to you!";
+
+"auth.phone.smsverification.title" = "Enter the verification code sent to ";
